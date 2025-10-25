@@ -2,4 +2,4 @@
 
 Bu layihə haqqında qısa məlumat.
 
-📄 [PDF sənədini aç](./docs/report.pdf)
+📄 [PDF sənədini aç](./docs/Presentation.pdf)
