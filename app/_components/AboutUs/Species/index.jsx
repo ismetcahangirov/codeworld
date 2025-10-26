@@ -52,7 +52,7 @@ const species = [
 const Species = () => {
   return (
     <section className="px-7 pb-24">
-      <Container className="flex flex-wrap justify-between items-center gap-16">
+      <Container className="flex flex-col justify-center  flex-wrap lg:flex-row md:justify-between items-center gap-16">
         {species.map((item, i) => (
           <SpeciesCard key={i} i={i} {...item} />
         ))}

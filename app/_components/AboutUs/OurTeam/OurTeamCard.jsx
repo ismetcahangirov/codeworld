@@ -22,7 +22,7 @@ const OurTeamCard = ({ img, name, major, text }) => {
       </div>
 
       <div
-        className="text-dark text-center opacity-0 group-hover:opacity-100  
+        className="text-dark text-center hidden sm:block sm:opacity-0 sm:group-hover:opacity-100  
                       transition-opacity duration-300 ease-in"
       >
         <h6 className="text-xl md:text-2xl font-semibold drop-shadow-xs drop-shadow-dark whitespace-nowrap">

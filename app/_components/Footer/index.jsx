@@ -34,7 +34,7 @@ const Footer = () => {
       >
         <div className="flex flex-col justify-between  gap-y-7">
           <Logo fontSize={"text-5xl"} white width={"!w-36px !h-36px"} />
-          <div className="text-white flex gap-x-5 gap-y-2 flex-wrap w-[306px] h-max">
+          <div className="text-white flex gap-x-4 gap-y-2 flex-wrap w-full sm:w-[306px] h-max ">
             <h6 className="text-2xl font-medium w-full">İxtisaslar</h6>
             {majors.map((major, i) => (
               <Link

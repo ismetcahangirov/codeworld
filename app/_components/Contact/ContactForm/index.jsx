@@ -56,7 +56,7 @@ const ContactForm = () => {
       <Container className={"!max-w-[1048px]"}>
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col gap-4 w-full bg-sky px-20 py-8 rounded-tr-[80px] rounded-bl-[80px]"
+          className="flex flex-col gap-4 w-full bg-sky px-7 sm:px-20 py-8 rounded-tr-[80px] rounded-bl-[80px]"
         >
           <h4 className="text-2xl lg:text-4xl font-semibold text-center mb-5">
             Email göndər

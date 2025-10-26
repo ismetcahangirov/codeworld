@@ -33,7 +33,7 @@ const OurMission = () => {
       </div>
       <Container
         className={
-          "flex justify-center lg:justify-between items-center flex-wrap gap-14"
+          "flex justify-center lg:justify-between items-center flex-wrap sm:gap-14 gap-y-25"
         }
       >
         {missions.map((mission) => (
